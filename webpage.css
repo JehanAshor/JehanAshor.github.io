@@ -1,0 +1,179 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#About">About</a></li>
+  <li><a href="#portfolio">portfolio</a></li>
+  <li><a href="#Link">Link</a></li>
+</ul>
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+     <h1>Jehan Ashor</h1>
+     <p>About my identity.</p>
+     </div>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+  <ul>
+  <div class="side">
+      <h2>About Me</h2>
+      <h5>Tech geek but with a little twist.</h5>
+	  <h6>Information Technolgy student that loves to create art and solve problems at the same time<h6>
+      <img src="Facebook.jpg" width=300px; height=200px></img>
+      <p>This is me doing outdoor activity which is very rare..</p>
+      <h3>Interest</h3>
+      <p>I collect pop figures of my facorite DC comic characters</p>
+	  <img src="comic.jpg" width=300px; height=400px></img>
+
+  </ul>
+</div>
+
+<div class="col-6">
+      <h2>My Photographs </h2>
+      <h5>Kawasan, July 1, 2017</h5>
+      <img src="44.jpg" width=250px; height=300px></img><img src="55.jpg" width=250px; height=300px></img><img src="66.jpg" width=250x; height=300px></img>
+      <p><b>More about my photos</b></p>
+      <p>I love taking pictures of nature, i feel like whenever i look back to pictures like the one above i remember the moment with more clearness </p>
+	  <img src="1.jpg" width=250px; height=200px></img><img src="2.jpg" width=250px; height=200px></img><img src="3.jpg" width=250x; height=200px></img>
+
+</div>
+
+<div class="col-3 right">
+  <div class="aside">
+
+      <h2>My Artowrk</h2>
+      <h5>Locked girl, March 3,2018</h5>
+	  <h6>Did this piece to symbolize what it feels like to be locked from your dreams.<h6>
+      <img src="Straws.jpg" width=300px; height=450px></img><img src="locked girl.jpg" width=300px; height=450px></img>
+      <p><b>More about my Art</b></p>
+      <p>I started drawing silhouettes of artists that helped put joy in my heart through out my entier life and i countinued creating art works using different elements </p>
+	  <img src="Dark.jpg" width=500px; height=300px></img>
+	  <img src="sill.jpg" width=500px; height=300px></img>
+
+  </div>
+</div>
+
+</div>
+
+<div class="Social Media Accounts">
+        <p align="Center"><a href="https://twitter.com/___jihann?lang=ar" class="fa fa-twitter"></a></p> 
+		<p align="Center"><a href="https://www.instagram.com/___jihann/" class="fa fa-instagram"></a></p>
+
+</body>
+</html>
+
+
+</body>
+</html>
